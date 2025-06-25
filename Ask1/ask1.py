@@ -11,7 +11,7 @@ for i in range (1,40):
     perf = input("Εισάγετε την επίδοση του αθλητή \n >>> ")
     perf=float(perf)
     if perf > 2.25:
-        pass1+=1
+        pass1+= 1
         if perf > 2.30:
             pass2+=1
 p1p = (pass1/ 40 )*100
